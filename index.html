@@ -71,11 +71,12 @@
                    font-size: 30px;
 			}
 			img.medon{
-			          position: static;
+			          position: relative;
 					  top: 810px;
 					  right: 400px;
-					  wight: 100%;
-					  height: 100%;
+					  padding-bottom: 100%; /* соотношение 16:9 */
+                                          height: 0;
+                                          overflow: hidden;
 			}
 			p.propysk{
 			        font-size:30 px;
